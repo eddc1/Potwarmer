@@ -6,8 +6,13 @@
           <!-- Bootstrap Icon Fan -->
           <i class="bi bi-fan"></i>
         </span>
-        <h1 class="text-xl">Potwarmer</h1>
+        <h1 class="text-xl">POTWARMER</h1>
       </div>      
+      <ul class="md:flex md:items-center ">
+        <li class="md:mx-4" v-for="link in Links">
+          <a :href="link.link" class="text-x1 hover:text-green-500">{{link.name}}</a>
+        </li>
+      </ul>
     </div>
 
 </template>
@@ -15,5 +20,14 @@
 <script>
 export default {
 
+  setup(){
+    let Links = [
+      {name: "Home" , link : "#"},
+      {name: "Info" , link : "#"},
+      {name: "Produkt" , link : "#"},
+      {name: "Contact" , link : "#"},
+    ]
+    return{Links}
+  }
 }
 </script>
