@@ -160,4 +160,18 @@ element.style {
     width: 72px;
     margin: 0 auto;
 }
+.icons a p span {
+    color: #107c10;
+}
 /* Contentbar end */
+
+/* Manual start */
+.manual>p, .manual>ul {
+    text-align: left;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 2em;
+    margin-inline-end: 2em;
+}
+/* Manual end */
