@@ -3,6 +3,7 @@
   <div>
     <Navbar />
     <Home />
+    <Footbar />
   </div>
 
 </template>
@@ -11,6 +12,7 @@
 
 import Navbar from './components/Navbar.vue';
 import Home from './components/Home.vue';
+import Footbar from './components/Footbar.vue';
 
 
 export default {
@@ -18,7 +20,7 @@ export default {
   components: {
     Navbar,
     Home,
-    
+    Footbar,
   }
 }
 </script>
