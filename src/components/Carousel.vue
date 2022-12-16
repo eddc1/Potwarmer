@@ -33,7 +33,7 @@
                         <p class="c-subheading-1">Wärme den Raum günstig mit der selbstgebauten Heizung!</p>
                         <div>
                             <a href="https://www.xbox.com/games/marvels-midnight-suns" class="c-call-to-action c-glyph f-heavyweight cta1" data-cta="Learn" aria-label="Jetzt holen, Marvel's Midnight Suns kaufen">
-                                <span>ZUR ANLEITUNG</span>
+                                <span class="text-[#350004]">ZUR ANLEITUNG</span>
                             </a>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
                             <p class="c-subheading-1">Aufhängen am Gerüst im Garten oder Zuhause!</p>
                             <div>
                                 <a href="https://www.xbox.com/games/warhammer-40000-darktide" class="c-call-to-action c-glyph f-heavyweight cta1" data-cta="Learn" aria-label="Aufhängen am Gerüst im Garten oder Zuhause!">
-                                    <span>ZUR ANLEITUNG</span>
+                                    <span class="text-[#001e81]">ZUR ANLEITUNG</span>
                                 </a>
                             </div>
                         </div>
@@ -75,7 +75,7 @@
                             <p class="c-subheading-1">Season 3 jetzt erhältlich. Spiele mit PC Game Pass oder Ultimate.</p>
                             <div>
                                 <a href="https://www.xbox.com/games/store/battlefield-2042/9nmgp6s6njpr" class="c-call-to-action c-glyph f-heavyweight cta1" data-retailer="MS Store" aria-label="Jetzt holen, Battlefield 2042 kaufen">
-                                    <span>ZUR ANLEITUNG</span>
+                                    <span class="text-[#001e81]">ZUR ANLEITUNG</span>
                                 </a>
                             </div>
                         </div>
