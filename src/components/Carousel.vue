@@ -25,12 +25,12 @@
         <swiper-slide>
             <section class="m-hero-item f-x-left f-y-center context-accessory theme-dark" itemscope="" itemtype="http://schema.org/Product" role="tabpanel" tabindex="-1" aria-label="section describing Marvel's Midnight Suns" data-js-href="https://www.xbox.com/games/marvels-midnight-suns">
                 <picture class="c-image">
-                    <source class="heroImgDesktop" srcset="https://assets.xboxservices.com/assets/09/5c/095cd06e-d975-48d2-ab85-22ecbd83a662.jpg?n=Marvels-Midnight-Suns_Page-Hero-1084_1920x720_03.jpg" media="(min-width:1084px)">
+                    <source class="heroImgDesktop" srcset="../assets/Carousel_1.jpg" media="(min-width:1084px)">
                     <source class="heroImgTablet" srcset="https://assets.xboxservices.com/assets/d9/9a/d99a3650-06ae-4816-909e-29db5d7bcd29.jpg?n=Marvels-Midnight-Suns_Page-Hero-768_1083x1222_03.jpg" media="(min-width:768px)">
                     <source class="heroImgMobile" srcset="https://assets.xboxservices.com/assets/9b/02/9b022fca-87c8-4cb2-8e3b-0ea0d488a1fe.jpg?n=Marvels-Midnight-Suns_Page-Hero-0_767x1175_03.jpg" media="(min-width:0)">
                     <img srcset="https://assets.xboxservices.com/assets/09/5c/095cd06e-d975-48d2-ab85-22ecbd83a662.jpg?n=Marvels-Midnight-Suns_Page-Hero-1084_1920x720_03.jpg" src="https://assets.xboxservices.com/assets/09/5c/095cd06e-d975-48d2-ab85-22ecbd83a662.jpg?n=Marvels-Midnight-Suns_Page-Hero-1084_1920x720_03.jpg" alt="Eine Gruppe von Superhelden, darunter Wolverine, Iron Man, Ghost Rider und Blade."></picture><div><div class="high-contrast">
-                        <h2 class="c-heading-1">Marvel's Midnight Suns</h2>
-                        <p class="c-subheading-1">Die Dunkelheit bricht herein, steh auf!</p>
+                        <h2 class="c-heading-1">Blumentopf-Heizung</h2>
+                        <p class="c-subheading-1">Wärme den Raum günstig mit der selbstgebauten Heizung!</p>
                         <div>
                             <a href="https://www.xbox.com/games/marvels-midnight-suns" class="c-call-to-action c-glyph f-heavyweight cta1" data-cta="Learn" aria-label="Jetzt holen, Marvel's Midnight Suns kaufen">
                                 <span>ZUR ANLEITUNG</span>
@@ -44,18 +44,18 @@
             <li id="hero-2" data-f-theme="dark" class="f-active f-animate-next">
                 <section class="m-hero-item f-x-right f-y-center context-accessory theme-dark" itemscope="" itemtype="http://schema.org/Product" role="tabpanel" tabindex="-1" aria-label="section describing Warhammer 40,000: Darktide" data-js-href="https://www.xbox.com/games/warhammer-40000-darktide">
                     <picture class="c-image">
-                        <source class="heroImgDesktop" srcset="https://assets.xboxservices.com/assets/3d/79/3d790b2f-4160-4268-ac4c-d68ffe7131c0.jpg?n=076548_Page-Hero-1084_1920x720.jpg" media="(min-width:1084px)">
+                        <source class="heroImgDesktop" srcset="../assets/Carousel_2.jpg" media="(min-width:1084px)">
                         <source class="heroImgTablet" srcset="https://assets.xboxservices.com/assets/e2/1e/e21eceeb-ff78-44a2-ba87-4a7ce0e7dd96.jpg?n=076548_Page-Hero-768_1083x1222.jpg" media="(min-width:768px)">
                         <source class="heroImgMobile" srcset="https://assets.xboxservices.com/assets/90/ad/90ad701e-0f3f-4006-9d91-399d7a35c02e.jpg?n=076548_Page-Hero-0_767x1175.jpg" media="(min-width:0)">
                         <img srcset="https://assets.xboxservices.com/assets/3d/79/3d790b2f-4160-4268-ac4c-d68ffe7131c0.jpg?n=076548_Page-Hero-1084_1920x720.jpg" src="https://assets.xboxservices.com/assets/3d/79/3d790b2f-4160-4268-ac4c-d68ffe7131c0.jpg?n=076548_Page-Hero-1084_1920x720.jpg" alt="Warhammer 40.000: Darktide: Verschiedene Spielcharaktere in Kampfrüstung.">
                     </picture>
                     <div>
                         <div class="high-contrast-2">
-                            <h2 class="c-heading-1">Warhammer 40,000: Darktide</h2>
-                            <p class="c-subheading-1">Spiele mit PC Game Pass oder Ultimate</p>
+                            <h2 class="c-heading-1">Blumentopf-Heizung</h2>
+                            <p class="c-subheading-1">Aufhängen am Gerüst im Garten oder Zuhause!</p>
                             <div>
-                                <a href="https://www.xbox.com/games/warhammer-40000-darktide" class="c-call-to-action c-glyph f-heavyweight cta1" data-cta="Learn" aria-label="Jetzt holen, Warhammer 40,000: Darktide kaufen">
-                                    <span>JETZT KAUFEN</span>
+                                <a href="https://www.xbox.com/games/warhammer-40000-darktide" class="c-call-to-action c-glyph f-heavyweight cta1" data-cta="Learn" aria-label="Aufhängen am Gerüst im Garten oder Zuhause!">
+                                    <span>ZUR ANLEITUNG</span>
                                 </a>
                             </div>
                         </div>
@@ -75,7 +75,7 @@
                             <p class="c-subheading-1">Season 3 jetzt erhältlich. Spiele mit PC Game Pass oder Ultimate.</p>
                             <div>
                                 <a href="https://www.xbox.com/games/store/battlefield-2042/9nmgp6s6njpr" class="c-call-to-action c-glyph f-heavyweight cta1" data-retailer="MS Store" aria-label="Jetzt holen, Battlefield 2042 kaufen">
-                                    <span>JETZT KAUFEN</span>
+                                    <span>ZUR ANLEITUNG</span>
                                 </a>
                             </div>
                         </div>
