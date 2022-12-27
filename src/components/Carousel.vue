@@ -27,7 +27,7 @@
                 <picture class="c-image">
                     <source class="heroImgDesktop" srcset="../assets/Carousel_1.jpg" media="(min-width:1084px)">
                     <source class="heroImgTablet" srcset="https://assets.xboxservices.com/assets/d9/9a/d99a3650-06ae-4816-909e-29db5d7bcd29.jpg?n=Marvels-Midnight-Suns_Page-Hero-768_1083x1222_03.jpg" media="(min-width:768px)">
-                    <source class="heroImgMobile" srcset="https://assets.xboxservices.com/assets/9b/02/9b022fca-87c8-4cb2-8e3b-0ea0d488a1fe.jpg?n=Marvels-Midnight-Suns_Page-Hero-0_767x1175_03.jpg" media="(min-width:0)">
+                    <source class="heroImgMobile" srcset="../assets/Carousel_1_Mobile.jpg" media="(min-width:0)">
                     <img srcset="https://assets.xboxservices.com/assets/09/5c/095cd06e-d975-48d2-ab85-22ecbd83a662.jpg?n=Marvels-Midnight-Suns_Page-Hero-1084_1920x720_03.jpg" src="https://assets.xboxservices.com/assets/09/5c/095cd06e-d975-48d2-ab85-22ecbd83a662.jpg?n=Marvels-Midnight-Suns_Page-Hero-1084_1920x720_03.jpg" alt="Eine Gruppe von Superhelden, darunter Wolverine, Iron Man, Ghost Rider und Blade."></picture><div><div class="high-contrast">
                         <h2 class="c-heading-1">Blumentopf-Heizung</h2>
                         <p class="c-subheading-1">Wärme den Raum günstig mit der selbstgebauten Heizung!</p>
@@ -55,26 +55,6 @@
                             <p class="c-subheading-1">Aufhängen am Gerüst im Garten oder Zuhause!</p>
                             <div>
                                 <a href="https://www.xbox.com/games/warhammer-40000-darktide" class="c-call-to-action c-glyph f-heavyweight cta1" data-cta="Learn" aria-label="Aufhängen am Gerüst im Garten oder Zuhause!">
-                                    <span class="text-[#001e81]">ZUR ANLEITUNG</span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </li>
-        </swiper-slide>
-        <swiper-slide>
-            <li id="hero-3" data-f-theme="dark" class="f-active f-animate-next">
-                <section class="m-hero-item f-x-left f-y-center context-accessory theme-dark" itemscope="" itemtype="http://schema.org/Product" role="tabpanel" tabindex="-1" aria-label="section describing Battlefield 2042" data-js-href="https://www.xbox.com/games/store/battlefield-2042/9nmgp6s6njpr">
-                    <picture class="c-image">
-                        <source class="heroImgDesktop" srcset="https://assets.xboxservices.com/assets/51/d8/51d8e8ee-530b-487c-81d7-dde1ff9c5a34.jpg?n=Battlefield-2042_Page-Hero-1084_039599_1920x720.jpg" media="(min-width:1084px)"><source class="heroImgTablet" srcset="https://assets.xboxservices.com/assets/22/17/2217d02d-7e11-4ece-b12b-fbe86fe9a3bd.jpg?n=Battlefield-2042_Page-Hero-768_039599_1083x1222.jpg" media="(min-width:768px)"><source class="heroImgMobile" srcset="https://assets.xboxservices.com/assets/16/52/1652fb74-7837-4eb6-ad63-f6bf202369f6.jpg?n=Battlefield-2042_Page-Hero-0_039599_767x1175.jpg" media="(min-width:0)"><img srcset="https://assets.xboxservices.com/assets/51/d8/51d8e8ee-530b-487c-81d7-dde1ff9c5a34.jpg?n=Battlefield-2042_Page-Hero-1084_039599_1920x720.jpg" src="https://assets.xboxservices.com/assets/51/d8/51d8e8ee-530b-487c-81d7-dde1ff9c5a34.jpg?n=Battlefield-2042_Page-Hero-1084_039599_1920x720.jpg" alt="Im schummrigen Licht der Abenddämmerung stehen zwei Soldat*innen Rücken an Rücken vor einem futuristischen Panzer.">
-                    </picture>
-                    <div>
-                        <div class="high-contrast">
-                            <h2 class="c-heading-1">Battlefield 2042</h2>
-                            <p class="c-subheading-1">Season 3 jetzt erhältlich. Spiele mit PC Game Pass oder Ultimate.</p>
-                            <div>
-                                <a href="https://www.xbox.com/games/store/battlefield-2042/9nmgp6s6njpr" class="c-call-to-action c-glyph f-heavyweight cta1" data-retailer="MS Store" aria-label="Jetzt holen, Battlefield 2042 kaufen">
                                     <span class="text-[#001e81]">ZUR ANLEITUNG</span>
                                 </a>
                             </div>
