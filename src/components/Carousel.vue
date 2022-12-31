@@ -41,7 +41,7 @@
             </section>
         </swiper-slide>
         <swiper-slide>
-            <li id="hero-2" data-f-theme="dark" class="f-active f-animate-next">
+            <div id="hero-2" data-f-theme="dark" class="f-active f-animate-next">
                 <section class="m-hero-item f-x-right f-y-center context-accessory theme-dark" itemscope="" itemtype="http://schema.org/Product" role="tabpanel" tabindex="-1" aria-label="section describing Warhammer 40,000: Darktide" data-js-href="https://www.xbox.com/games/warhammer-40000-darktide">
                     <picture class="c-image">
                         <source class="heroImgDesktop" srcset="../assets/Carousel_2.jpg" media="(min-width:1084px)">
@@ -61,7 +61,7 @@
                         </div>
                     </div>
                 </section>
-            </li>
+            </div>
         </swiper-slide>
     </swiper>
     </div>
