@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="xl:container xl:mx-auto">
         <swiper 
         :spaceBetween="30"
         :centeredSlides="true"
@@ -23,12 +23,16 @@
         class="mySwiper"
     >
         <swiper-slide>
-            <section class="m-hero-item f-x-left f-y-center context-accessory theme-dark" itemscope="" itemtype="http://schema.org/Product" role="tabpanel" tabindex="-1" aria-label="section describing Marvel's Midnight Suns" data-js-href="https://www.xbox.com/games/marvels-midnight-suns">
+            <div class="m-hero-item f-x-left f-y-center context-accessory theme-dark" itemscope="" itemtype="http://schema.org/Product" role="tabpanel" tabindex="-1" aria-label="section describing Marvel's Midnight Suns" data-js-href="https://www.xbox.com/games/marvels-midnight-suns">
                 <picture class="c-image">
                     <source class="heroImgDesktop" srcset="../assets/Carousel_1.jpg" media="(min-width:1084px)">
                     <source class="heroImgTablet" srcset="https://assets.xboxservices.com/assets/d9/9a/d99a3650-06ae-4816-909e-29db5d7bcd29.jpg?n=Marvels-Midnight-Suns_Page-Hero-768_1083x1222_03.jpg" media="(min-width:768px)">
                     <source class="heroImgMobile" srcset="../assets/Carousel_1_Mobile.jpg" media="(min-width:0)">
-                    <img srcset="https://assets.xboxservices.com/assets/09/5c/095cd06e-d975-48d2-ab85-22ecbd83a662.jpg?n=Marvels-Midnight-Suns_Page-Hero-1084_1920x720_03.jpg" src="https://assets.xboxservices.com/assets/09/5c/095cd06e-d975-48d2-ab85-22ecbd83a662.jpg?n=Marvels-Midnight-Suns_Page-Hero-1084_1920x720_03.jpg" alt="Eine Gruppe von Superhelden, darunter Wolverine, Iron Man, Ghost Rider und Blade."></picture><div><div class="high-contrast">
+                    <img srcset="../assets/Carousel_1.jpg" alt="Blumentop Heizung in verschiedenen Varianten.">
+                </picture>
+
+                    <div>
+                        <div class="high-contrast">
                         <h2 class="c-heading-1">Blumentopf-Heizung</h2>
                         <p class="c-subheading-1">Wärme den Raum günstig mit der selbstgebauten Heizung!</p>
                         <div>
@@ -38,11 +42,11 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
         </swiper-slide>
         <swiper-slide>
             <div id="hero-2" data-f-theme="dark" class="f-active f-animate-next">
-                <section class="m-hero-item f-x-right f-y-center context-accessory theme-dark" itemscope="" itemtype="http://schema.org/Product" role="tabpanel" tabindex="-1" aria-label="section describing Warhammer 40,000: Darktide" data-js-href="https://www.xbox.com/games/warhammer-40000-darktide">
+                <div class="m-hero-item f-x-right f-y-center context-accessory theme-dark" itemscope="" itemtype="http://schema.org/Product" role="tabpanel" tabindex="-1" aria-label="section describing Warhammer 40,000: Darktide" data-js-href="https://www.xbox.com/games/warhammer-40000-darktide">
                     <picture class="c-image">
                         <source class="heroImgDesktop" srcset="../assets/Carousel_2.jpg" media="(min-width:1084px)">
                         <source class="heroImgTablet" srcset="https://assets.xboxservices.com/assets/e2/1e/e21eceeb-ff78-44a2-ba87-4a7ce0e7dd96.jpg?n=076548_Page-Hero-768_1083x1222.jpg" media="(min-width:768px)">
@@ -60,7 +64,7 @@
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
             </div>
         </swiper-slide>
     </swiper>
