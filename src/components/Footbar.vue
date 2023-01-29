@@ -13,7 +13,7 @@
     <div class="bg-gray-900 text-gray-100 py-3.5 px-6 schadow md:flex justify-center items-center">
       <div class="flex items-center cursor-pointer">
         <p class="px-3 ">© Copyright 2022</p>
-        <span class="text-green-500 text-xl mr-1">
+        <span class="text-[#9bf00b] text-xl mr-1">
           <!-- Bootstrap Icon Fan -->
           <i class="bi bi-fan"></i>
         </span>

@@ -1,7 +1,19 @@
-# Vue 3 + Vite
+# Toodo List
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+1. Die Navigationsleiste wird beim öffnen durch einen Klick auf der Mobilen Ansicht verdeckt, durch das Caouresel.
+ - möglichkeit zu Fixen:
+    - neue Navigationsleiste Erstellen
+        URL: 
+            	https://dev.to/fayaz/making-a-navigation-drawer-sliding-sidebar-with-tailwindcss-blueprint-581l
 
-## Recommended IDE Setup
+2. Die Contenblocklist muss überarbeitet werden.
+    - URL Links austauschen.
+    - Xbox entfernen
+    - Icons ändern und Anpassen. 
+    - Navigations soll auf die verschienden Erklärungs Seiten Verlinken.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+3. Das Carousel soll bei der Mobilen Ansicht den Text und den Button nicht Mittich sondern Zentriert unterhalb sichtbar sein.
+
+4. Weitere Bilder und Erklärungen Hinzufügen.
+
+5. Affiliate Links Erstellen und einsetzen.

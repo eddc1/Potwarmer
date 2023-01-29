@@ -1,5 +1,4 @@
 <template>
-
     <div class="container mx-auto">
         <div class="manual">
             <h1 class="text-center py-4 text-3xl">
