@@ -17,3 +17,18 @@
 4. Weitere Bilder und Erklärungen Hinzufügen.
 
 5. Affiliate Links Erstellen und einsetzen.
+
+
+
+
+
+
+## Tipps
+
+// Shortcuts
+    Code formatieren (zurechtrücken)
+        - Strg + K, Strg + F
+
+1. Responsive Design
+    - Wird nicht angezeigt wenn der Zustand md erreicht.
+        - md:hidden

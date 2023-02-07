@@ -82,7 +82,7 @@
                   </div>
                   <p class="c-paragraph">
                      <span data-loc-copy="keyCopyicon5">
-                        WIEDERGEBEN
+                        WIEDERGEBE
                      </span>
                   </p>
                </div>

@@ -28,8 +28,7 @@
                 </picture>
 
                     <div>
-                        <div class="high-contrast"
-                        >
+                        <div class="high-contrast">
                         <h2 class="c-heading-1">Blumentopf-Heizung</h2>
                         <p class="c-subheading-1">Wärme den Raum günstig mit der selbstgebauten Heizung!</p>
                         <div>
