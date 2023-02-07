@@ -1,39 +1,38 @@
 <template>
   <nav
-    class="flex fixed w-full items-center justify-between px-6 h-16 bg-gray-900 text-gray-100 border-b border-gray-200 z-10">
+    class="flex  w-full items-center justify-between px-6 h-16 bg-gray-900 text-gray-100 border-b border-gray-200 z-10">
     <div class="flex items-center">
-      <button class="mr-2" aria-label="Open Menu" @click="drawer">
-        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-          viewBox="0 0 24 24" class="w-8 h-8">
-          <path d="M4 6h16M4 12h16M4 18h16"></path>
-        </svg>
-        <!-- src: 1. img = /logos/fox-hub.png -->
-      </button>
       <div class="flex items-center cursor-pointer">
         <span class="text-[#9bf00b] text-xl mr-1">
           <!-- Bootstrap Icon Fan -->
           <i class="bi bi-fan"></i>
         </span>
         <h1 class="text-xl">POTWARMER</h1>
-      </div>    
+      </div>
     </div>
     <div class="flex items-center">
       <div class="hidden md:flex md:justify-between md:bg-transparent">
         <button title="Info"
-          class="flex items-center p-3 font-medium mr-2 text-center bg-gray-500 rounded  hover:bg-gray-400 focus:outline-none focus:bg-gray-400">
+          class="btn btn-sm flex items-center p-3 font-medium mr-4 my-2 text-center bg-gray-100 rounded text-black hover:bg-gray-300 focus:outline-none focus:bg-gray-300">
           <svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="currentColor"
             viewBox="0 0 24 24" class="w-6 h-6 mr-2">
             <path d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"></path>
           </svg>
           <span>Info</span>
         </button>
-        <a rel="noopener" href="https://www.buymeacoffee.com/fayazahmed" target="_blank"
-          title="Help me keep this site alive"
-          class="flex items-center  px-3 py-3 font-medium mr-2 text-center bg-[#983422] rounded text-white hover:bg-[#7a1813] focus:outline-none focus:bg-orange-400">
+        <button title="Get started"
+          class="btn btn-sm flex items-center p-3 font-medium mr-4 my-2 text-center bg-[#983422] rounded ext-white hover:bg-[#7a1813] focus:outline-none focus:bg-[#7a1813]">
           <p class="font-bold">
             Get started
           </p>
-        </a>
+        </button>
+        <button class="mr-2" aria-label="Open Menu" @click="drawer">
+          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            viewBox="0 0 24 24" class="w-8 h-8">
+            <path d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+          <!-- src: 1. img = /logos/fox-hub.png -->
+        </button>
       </div>
     </div>
 
@@ -48,12 +47,12 @@
       :class="isOpen ? 'translate-x-0' : '-translate-x-full'">
       <span @click="isOpen = false" class="flex w-full items-center p-4 border-b">
         <div class="flex items-center cursor-pointer">
-        <span class="text-[#9bf00b] text-xl mr-1">
-          <!-- Bootstrap Icon Fan -->
-          <i class="bi bi-fan"></i>
-        </span>
-        <h1 class="text-xl">POTWARMER</h1>
-      </div>   
+          <span class="text-[#9bf00b] text-xl mr-1">
+            <!-- Bootstrap Icon Fan -->
+            <i class="bi bi-fan"></i>
+          </span>
+          <h1 class="text-xl">POTWARMER</h1>
+        </div>
       </span>
       <span @click="isOpen = false" class="flex items-center p-4 hover:bg-indigo-500 hover:text-white "><span
           class="mr-2">
@@ -104,8 +103,7 @@
           </svg>
           <span>Share</span>
         </button>
-        <a rel="noopener" class="flex items-center p-4 bg-orange-700 text-white "
-          href="#" target="_blank">
+        <a rel="noopener" class="flex items-center p-4 bg-orange-700 text-white " href="#" target="_blank">
           <span class="text-[#9bf00b] text-xl mr-1">
             <!-- Bootstrap Icon Fan -->
             <i class="bi bi-gear"></i>
