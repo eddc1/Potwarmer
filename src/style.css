@@ -223,4 +223,8 @@ element.style {
     margin-inline-start: 2em;
     margin-inline-end: 2em;
 }
+
+a {
+    outline: none;
+  }
 /* Manual end */

@@ -1,10 +1,10 @@
 # Toodo List
 
-1. Die Navigationsleiste wird beim öffnen durch einen Klick auf der Mobilen Ansicht verdeckt, durch das Caouresel.
+<!-- 1. Die Navigationsleiste wird beim öffnen durch einen Klick auf der Mobilen Ansicht verdeckt, durch das Caouresel.
  - möglichkeit zu Fixen:
     - neue Navigationsleiste Erstellen
         URL: 
-            	https://dev.to/fayaz/making-a-navigation-drawer-sliding-sidebar-with-tailwindcss-blueprint-581l
+            	https://dev.to/fayaz/making-a-navigation-drawer-sliding-sidebar-with-tailwindcss-blueprint-581l -->
 
 2. Die Contenblocklist muss überarbeitet werden.
     - URL Links austauschen.
