@@ -26,13 +26,13 @@
             Get started
           </p>
         </button>
-        <button class="mr-2" aria-label="Open Menu" @click="drawer">
+      </div>
+      <button class="mr-2" aria-label="Open Menu" @click="drawer">
           <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
             viewBox="0 0 24 24" class="w-8 h-8">
             <path d="M4 6h16M4 12h16M4 18h16"></path>
           </svg>
         </button>
-      </div>
     </div>
 
     <transition enter-class="opacity-0" enter-active-class="ease-out transition-medium" enter-to-class="opacity-100"
@@ -135,8 +135,8 @@ export default {
       immediate: true,
       handler(isOpen) {
         //   if (process.client) {
-        //     // if (isOpen) document.body.style.setProperty("overflow", "hidden");
-        //     // else document.body.style.removeProperty("overflow");
+        //      if (isOpen) document.body.style.setProperty("overflow", "hidden");
+        //      else document.body.style.removeProperty("overflow");
         //   }
       }
     }
