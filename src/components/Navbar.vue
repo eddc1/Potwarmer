@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="flex  w-full items-center justify-between px-6 h-16 bg-gray-900 text-gray-100 border-b border-gray-200 z-10">
+    class="flex  w-full items-center justify-between px-6 h-16 bg-gray-900 text-gray-100  z-10">
     <div class="flex items-center">
       <div class="flex items-center cursor-pointer">
         <span class="text-[#9bf00b] text-xl mr-1">

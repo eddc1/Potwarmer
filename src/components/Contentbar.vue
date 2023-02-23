@@ -99,7 +99,7 @@
                   </div>
                   <p class="c-paragraph">
                      <span data-loc-copy="keyCopyicon6">
-                        FAZIT
+                        ANLEITUNG
                      </span>
                   </p>
                </div>
