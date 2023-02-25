@@ -10,8 +10,8 @@
                data-loc-clickname="keyClicknameicon1" data-loc-aria="keyAriaicon1">
                <div>
                   <div>
-                     <img
-                        src="https://assets.xboxservices.com/assets/37/ec/37ec5a7a-08b4-466f-93e3-81fb5dd0b471.svg?n=Homepage-FY20_Home-Icons-0_XGP_72x56-01.svg"
+                     <img class="w-4/5"
+                        src="../assets/static/logos/Blumentopf_Icon.png"
                         alt="" data-loc-image="keyImageicon1">
                   </div>
                   <p class="c-paragraph">
@@ -27,7 +27,8 @@
                <div>
                   <div>
                      <img
-                        src="https://assets.xboxservices.com/assets/e2/a8/e2a830ea-71e7-42fa-af94-7a07d66f150e.svg?n=Homepage-FY20_Home-Icons-0_Games_72x56-01.svg"
+                        class="w-4/5"
+                        src="../assets/static/logos/Kerze_Icon.png"
                         alt="" data-loc-image="keyImageicon2">
                   </div>
                   <p class="c-paragraph">
