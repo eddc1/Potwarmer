@@ -10,7 +10,7 @@
                data-loc-clickname="keyClicknameicon1" data-loc-aria="keyAriaicon1">
                <div>
                   <div>
-                     <img class="w-4/5"
+                     <img class=""
                         src="../assets/static/logos/Blumentopf_Icon.png"
                         alt="" data-loc-image="keyImageicon1">
                   </div>
@@ -25,9 +25,9 @@
             <a href="#" data-cta="learn" data-clickname="" aria-label="Xbox-SPIELE kaufen"
                data-loc-link="keyLinkicon2" data-loc-clickname="keyClicknameicon2" data-loc-aria="keyAriaicon2">
                <div>
-                  <div>
+                  <div class="flex justify-center">
                      <img
-                        class="w-4/5"
+                        class=""
                         src="../assets/static/logos/Kerze_Icon.png"
                         alt="" data-loc-image="keyImageicon2">
                   </div>
@@ -39,30 +39,12 @@
                </div>
             </a>
 
-            <a href="#" data-cta="learn" data-clickname="" aria-label="Xbox-Konsolen kaufen"
-               data-loc-link="keyLinkicon3" data-loc-clickname="keyClicknameicon3" data-loc-aria="keyAriaicon3">
-               <div>
-                  <div>
-                     <img
-                        src="https://assets.xboxservices.com/assets/12/74/12744081-03f9-42a4-87be-e869ddce3327.svg?n=Homepage-FY20_Home-Icons-0_Consoles_72x56-02.svg"
-                        alt="" data-loc-image="keyImageicon3">
-                  </div>
-                  <p class="c-paragraph">
-                     <span data-loc-copy="keyCopyicon3">
-                        HALTERUNG
-                     </span>
-                  </p>
-               </div>
-            </a>
-
             <a href="#" data-cta="learn" data-clickname=""
                aria-label="Komplette Auswahl an Xbox-ZUBEHÖR durchsuchen" data-loc-link="keyLinkicon4"
                data-loc-clickname="keyClicknameicon4" data-loc-aria="keyAriaicon4">
                <div>
-                  <div>
-                     <img
-                        src="https://assets.xboxservices.com/assets/29/ff/29ffa9b2-2d48-433b-abb7-99229bcbaa8b.svg?n=Homepage-FY20_Home-Icons-0_Accessories_72x56-01.svg"
-                        alt="" data-loc-image="keyImageicon4">
+                  <div class="flex justify-center">
+                     <svg class="w-4/5" xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 96 960 960" width="48"><path d="m753 452-44-94-94-44 94-44 44-94 44 94 94 44-94 44-44 94Zm84 289-29.76-63.24L744 648l63.24-29.76L837 555l29.76 63.24L930 648l-63.24 29.76L837 741ZM314 976l-10-92q-14-2-29-9t-26-17l-78 33-88-144 76-50q-5-17-5-30t5-30l-76-50 88-144 78 33q11-10 26-17t29-9l10.075-92H482l10 92q14 2 29 9t26 17l78-33 88 144-76 50q5 17 5 30t-5 30l76 50-88 144-78-33q-11 10-26 17t-29 9l-10.075 92H314Zm84-194q50 0 82.5-32.5T513 667q0-50-32.5-82.5T398 552q-50 0-82.5 32.5T283 667q0 50 32.5 82.5T398 782Zm0-60q-24 0-39.5-15.5T343 667q0-24 15.5-39.5T398 612q24 0 39.5 15.5T453 667q0 24-15.5 39.5T398 722Zm-34 194h68l8-76q29-7 53-20t43.767-34L602 815l33-52-62-44q11-25 11-52t-11-52l62-44-33-52-65.233 29Q517 527 493 514q-24-13-53-20l-8-76h-68l-8 76q-29 7-53 20t-43.767 34L194 519l-33 52 62 44q-11 25-11 52t11 52l-62 44 33 52 65.233-29Q279 807 303 820q24 13 53 20l8 76Zm34-249Z"/></svg>
                   </div>
                   <p class="c-paragraph">
                      <span data-loc-copy="keyCopyicon4">
@@ -78,7 +60,7 @@
                <div>
                   <div>
                      <img
-                        src="https://assets.xboxservices.com/assets/b0/5e/b05eb3af-fda3-481c-8edc-585eb33b864a.svg?n=Homepage-FY20_Home-Icons-0_Play_72x56_02.svg"
+                        src="../assets/static/logos/Wiedergabe_Icon.png"
                         alt="" data-loc-image="keyImageicon5">
                   </div>
                   <p class="c-paragraph">
@@ -95,7 +77,7 @@
                <div>
                   <div>
                      <img
-                        src="https://assets.xboxservices.com/assets/30/ab/30abec76-ab4c-4275-b0ca-725a6eb2f85f.svg?n=Homepage-FY20_Home-Icons-0_Sign-In_72x56-01.svg"
+                        src="../assets/static/logos/Anleitung_Icon.png"
                         alt="" data-loc-image="keyImageicon6">
                   </div>
                   <p class="c-paragraph">
@@ -111,30 +93,3 @@
    </div>
 
 </template>
-
-<script>
-
-import Button from './Button.vue'
-import { ref } from 'vue'
-
-export default {
-   components: {
-      Button
-   },
-
-   setup() {
-      let open = ref(false)
-      let Links = [
-         { name: "Home", link: "#" },
-         { name: "Info", link: "#" },
-         { name: "Produkt", link: "#" },
-         { name: "Contact", link: "#" },
-      ]
-      function MenuOpen() {
-         open.value = !open.value
-      }
-
-      return { Links, open, MenuOpen }
-   }
-}
-</script>
