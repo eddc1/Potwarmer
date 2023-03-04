@@ -372,6 +372,7 @@
             <p>
                 Bevor Sie beginnen, stellen Sie sicher, dass Sie alle benötigten Materialien bereit haben. Diese umfassen einen Tonuntersetzer, eine Gewindestange, Unterlegscheiben, Muttern, Blumentöpfe und Teelichter.
             </p>
+            <Products />
             <p>
                 Kleben Sie die zu bohrende Stelle auf beiden Seiten des Tonuntersetzers mit Klebeband ab, um ein Splittern oder Einreißen des Materials beim Bohren zu vermeiden. Bohren Sie dann ein Loch in die Mitte des Untersetzers.
             </p>
@@ -398,3 +399,14 @@
     
     
 </template>
+
+
+<script>
+    import Products from './Products.vue';
+
+    export default {
+    components: {
+        Products
+  }
+}
+</script>
