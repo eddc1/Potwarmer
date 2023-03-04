@@ -1,7 +1,8 @@
  <template>
   <footer class="text-center text-white bg-gray-900 lg:text-left">
-  <div
-    class="flex items-center justify-center border-b border-slate-300 p-6 lg:justify-between">
+    <div class="max-w-[1600px] mx-auto">
+      <div
+    class="flex items-center justify-center p-6 lg:justify-between ">
     <div class="mr-12 hidden lg:block">
       <span>Besuchen Sie uns auf Social Media!</span>
     </div>
@@ -162,7 +163,7 @@
       </div>
     </div>
   </div>
-  <div class="border-t border-slate-300 bg-gray-900 p-6 text-center ">
+  <div class="bg-gray-900 p-6 text-center ">
     <span class="pr-4">© 2023 Copyright:</span>
     <a
       class="font-semibold text-white"
@@ -170,5 +171,7 @@
       >Edward Habermann</a
     >
   </div>
+    </div>
+  
   </footer>
 </template>

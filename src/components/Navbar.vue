@@ -1,7 +1,8 @@
 <template>
   <nav
-    class="flex  w-full items-center justify-between px-6 h-16 bg-gray-900 text-gray-100  z-10">
-    <div class="flex items-center">
+    class="bg-gray-900 ">
+    <div class="flex w-full items-center justify-between px-6 h-16  text-gray-100  z-10 max-w-[1600px] mx-auto">
+      <div class="flex items-center">
       <div class="flex items-center cursor-pointer">
         <span class="text-[#9bf00b] text-xl mr-1">
           <!-- Bootstrap Icon Fan -->
@@ -34,6 +35,8 @@
           </svg>
         </button>
     </div>
+    </div>
+   
 
     <transition enter-class="opacity-0" enter-active-class="ease-out transition-medium" enter-to-class="opacity-100"
       leave-class="opacity-100" leave-active-class="ease-out transition-medium" leave-to-class="opacity-0">
