@@ -19,7 +19,7 @@
         class="mySwiper"
     >
         <swiper-slide>
-            <div class="m-hero-item f-x-left f-y-center context-accessory theme-dark" itemscope="" itemtype="http://schema.org/Product" role="tabpanel" tabindex="-1" aria-label="section describing Marvel's Midnight Suns">
+            <div class="m-hero-item f-x-left f-y-center context-accessory theme-dark" itemscope="" itemtype="http://schema.org/Product" role="tabpanel" tabindex="-1" aria-label="Wärme den Raum günstig mit der selbstgebauten Heizung!">
                 <picture class="c-image">
                     <source class="heroImgDesktop" srcset="../assets/Carousel_1.jpg" media="(min-width:1084px)">
                     <source class="heroImgTablet" srcset="https://assets.xboxservices.com/assets/d9/9a/d99a3650-06ae-4816-909e-29db5d7bcd29.jpg?n=Marvels-Midnight-Suns_Page-Hero-768_1083x1222_03.jpg" media="(min-width:768px)">
@@ -27,8 +27,8 @@
                     <img srcset="../assets/Carousel_1.jpg" alt="Blumentop Heizung in verschiedenen Varianten.">
                 </picture>
 
-                    <div>
-                        <div class="high-contrast">
+                    <div class="container">
+                        <div class="high-contrast" >
                         <h2 class="c-heading-1">Blumentopf-Heizung</h2>
                         <p class="c-subheading-1">Wärme den Raum günstig mit der selbstgebauten Heizung!</p>
                         <div>
@@ -42,7 +42,7 @@
         </swiper-slide>
         <swiper-slide>
             <div id="hero-2" data-f-theme="dark" class="f-active f-animate-next">
-                <div class="m-hero-item f-x-right f-y-center context-accessory theme-dark" itemscope="" itemtype="http://schema.org/Product" role="tabpanel" tabindex="-1" aria-label="section describing Warhammer 40,000: Darktide">
+                <div class="m-hero-item f-x-right f-y-center context-accessory theme-dark" itemscope="" itemtype="http://schema.org/Product" role="tabpanel" tabindex="-1" aria-label="Aufhängen am Gerüst im Garten oder Zuhause!">
                     <picture class="c-image">
                         <source class="heroImgDesktop" srcset="../assets/Carousel_2.jpg" media="(min-width:1084px)">
                         <source class="heroImgTablet" srcset="https://assets.xboxservices.com/assets/e2/1e/e21eceeb-ff78-44a2-ba87-4a7ce0e7dd96.jpg?n=076548_Page-Hero-768_1083x1222.jpg" media="(min-width:768px)">
