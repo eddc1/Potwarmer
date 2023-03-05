@@ -6,7 +6,7 @@
         <!-- Produktbild -->
         <img :src="product.image" class="w-full h-64 object-cover">
         <div class="p-4 flex-grow">
-          <!-- Produktbild -->
+          <!-- Produktname -->
           <h3 class="text-lg font-medium text-gray-900">{{ product.title }}</h3>
           <!-- Kurzbeschreibung -->
           <p class="mt-2 text-gray-600 flex-grow">{{ product.description }}</p>
@@ -23,6 +23,14 @@
 </template>
   
   <script>
+
+  import TonuntersetzerImg from "../assets/static/logos/Tonuntersetzer-BG-2.png"
+  import GewindestangeImg from "../assets/static/logos/Gewindestange-BG-2.png"
+  import UnterlegscheibeImg from "../assets/static/logos/Unterlegscheibe-BG-2.png"
+  import MutterImg from "../assets/static/logos/Mutter-BG-2.png"
+  import BlumentopfImg from "../assets/static/logos/Blumentopf-BG-2.png"
+  import TeelichtImg from "../assets/static/logos/Teelicht-BG-2.png"
+
   export default {
     data() {
       return {
@@ -31,37 +39,37 @@
             id: 1,
             title: "Tonuntersetzer",
             description: "Basis der Blumentopfheizung, sorgt für Stabilität.",
-            image: "https://via.placeholder.com/600x400",
+            image: TonuntersetzerImg,
           },
           {
             id: 2,
             title: "Gewindestange",
             description: "Achse für Heizplatte, wird durch Tonuntersetzer und Topf geschraubt.",
-            image: "https://via.placeholder.com/600x400",
+            image: GewindestangeImg,
           },
           {
             id: 3,
-            title: "Unterlegscheiben",
+            title: "Unterlegscheibe",
             description: "Gleichmäßige Verteilung der Kräfte zwischen Tonuntersetzer, Gewindestange und Topf.",
-            image: "https://via.placeholder.com/600x400",
+            image: UnterlegscheibeImg,
           },
           {
             id: 4,
-            title: "Muttern",
+            title: "Mutter",
             description: "Halten Gewindestange und Unterlegscheiben sicher an Ort und Stelle.",
-            image: "https://via.placeholder.com/600x400",
+            image: MutterImg,
           },
           {
             id: 5,
-            title: "Blumentöpfe",
+            title: "Blumentopf",
             description: "Werden auf Gewindestange geschraubt und fungieren als Reflektor.",
-            image: "https://via.placeholder.com/600x400",
+            image: BlumentopfImg,
           },
           {
             id: 6,
-            title: "Teelichter",
+            title: "Teelicht",
             description: "Wärmequelle für Blumentopfheizung, auf Heizplatte platziert.",
-            image: "https://via.placeholder.com/600x400",
+            image: TeelichtImg,
           },
           // weitere Produkte hier hinzufügen
         ],

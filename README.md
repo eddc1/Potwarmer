@@ -16,6 +16,7 @@
     4. Weitere Bilder und Erklärungen Hinzufügen.
 
     5. Affiliate Links Erstellen und einsetzen.
+        - Die Links werden in den Shop Now Button eingeführt
 
 
 
