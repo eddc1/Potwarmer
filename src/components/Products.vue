@@ -1,21 +1,26 @@
 <template>
-    <div class="flex flex-wrap justify-center">
-      <div v-for="product in products" :key="product.id" class="w-full md:w-1/2 lg:w-1/3 px-4 py-4">
-        <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-          <img :src="product.image" class="w-full h-64 object-cover">
-          <div class="p-4">
-            <h3 class="text-lg font-medium text-gray-900">{{ product.title }}</h3>
-            <p class="mt-2 text-gray-600 overflow-hidden h-auto">{{ product.description }}</p>
-          </div>
-          <div class="px-4 py-2 bg-gray-100">
-            <button class="bg-gray-800 text-white font-semibold py-2 px-4 rounded">
-              Shop Now
-            </button>
-          </div>
+  <div class="flex flex-wrap justify-center">
+    <!-- Für jedes Produkt wird ein Container erstellt -->
+    <div v-for="product in products" :key="product.id" class="w-full md:w-1/2 lg:w-1/3 px-4 py-4 flex">
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+        <!-- Produktbild -->
+        <img :src="product.image" class="w-full h-64 object-cover">
+        <div class="p-4 flex-grow">
+          <!-- Produktbild -->
+          <h3 class="text-lg font-medium text-gray-900">{{ product.title }}</h3>
+          <!-- Kurzbeschreibung -->
+          <p class="mt-2 text-gray-600 flex-grow">{{ product.description }}</p>
+        </div>
+        <div class="px-4 py-2 bg-gray-100">
+          <!-- Shop-Button -->
+          <button class="bg-gray-800 text-white font-semibold py-2 px-4 rounded">
+            Shop Now
+          </button>
         </div>
       </div>
     </div>
-  </template>
+  </div>
+</template>
   
   <script>
   export default {
