@@ -47,14 +47,14 @@
                         <source class="heroImgDesktop" srcset="../assets/Carousel_2.jpg" media="(min-width:1084px)">
                         <source class="heroImgTablet" srcset="https://assets.xboxservices.com/assets/e2/1e/e21eceeb-ff78-44a2-ba87-4a7ce0e7dd96.jpg?n=076548_Page-Hero-768_1083x1222.jpg" media="(min-width:768px)">
                         <source class="heroImgMobile" srcset="../assets/Carousel_2_Mobile.jpg" media="(min-width:0)">
-                        <img srcset="../assets/Carousel_2.jpg" alt="Warhammer 40.000: Darktide: Verschiedene Spielcharaktere in Kampfrüstung.">
+                        <img srcset="../assets/Carousel_2.jpg" alt="Aufhängen am Gerüst im Garten oder Zuhause!">
                     </picture>
                     <div>
                         <div class="high-contrast-2">
                             <h2 class="c-heading-1">Blumentopf-Heizung</h2>
                             <p class="c-subheading-1">Aufhängen am Gerüst im Garten oder Zuhause!</p>
                             <div>
-                                <a href="https://www.xbox.com/games/warhammer-40000-darktide" class="c-call-to-action c-glyph f-heavyweight cta1" data-cta="Learn" aria-label="Aufhängen am Gerüst im Garten oder Zuhause!">
+                                <a href="#" class="c-call-to-action c-glyph f-heavyweight cta1" data-cta="Learn" aria-label="Aufhängen am Gerüst im Garten oder Zuhause!">
                                     <span class="text-[#001e81]">ZUR ANLEITUNG</span>
                                 </a>
                             </div>
