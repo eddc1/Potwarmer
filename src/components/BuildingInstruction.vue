@@ -29,6 +29,7 @@
 <script>
   import Step from "./Step.vue";
   import TonuntersetzerImg from "../assets/static/logos/Tonuntersetzer-BG-2.png"
+  import Anleitung1Img from "../assets/static/logos/Anleitung-1-BG.png"
 
   export default {
     components: {
@@ -51,7 +52,7 @@
     data() {
       return {
         step1: {
-          imgSrc: TonuntersetzerImg,
+          imgSrc: Anleitung1Img,
           title: "Schritt 1",
           text: "Kleben Sie die zu bohrende Stelle auf beiden Seiten des Tonuntersetzers mit Klebeband ab, um ein Splittern oder Einreißen des Materials beim Bohren zu vermeiden. Bohren Sie dann ein Loch in die Mitte des Untersetzers."
         },

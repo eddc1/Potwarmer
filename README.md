@@ -1,34 +1,28 @@
-# Toodo List
-    1. Die Navigationsleiste wird beim öffnen durch einen Klick auf der Mobilen Ansicht verdeckt, durch das Caouresel.
-    - möglichkeit zu Fixen:
-        - neue Navigationsleiste Erstellen
-            URL: 
-                    https://dev.to/fayaz/making-a-navigation-drawer-sliding-sidebar-with-tailwindcss-blueprint-581l 
+# Blumentopfheizung-Webseite
 
-    2. Die Contenblocklist muss überarbeitet werden.
-        - URL Links austauschen.
-        - Xbox entfernen
-        - Icons ändern und Anpassen. 
-        - Navigations soll auf die verschienden Erklärungs Seiten Verlinken.
+This is a website that provides information and instructions on how to make a flowerpot heater. A flowerpot heater is an environmentally friendly and cost-effective way to heat small spaces or tents. The website is divided into different sections to help users navigate and search for specific information.
 
-    3. Das Carousel soll bei der Mobilen Ansicht den Text und den Button nicht Mittich sondern Zentriert unterhalb sichtbar sein.
+## Overview
+The website was developed using Vue.js, JavaScript, HTML, and CSS, using Tailwind CSS as the framework. It consists of several components, including a main page, a page with instructions, and a page with contact information.
 
-    4. Weitere Bilder und Erklärungen Hinzufügen.
+## Installation
+To run the project locally, follow these steps:
 
-    5. Affiliate Links Erstellen und einsetzen.
-        - Die Links werden in den Shop Now Button eingeführt
+1. Clone the repository: `git clone https://github.com/username/Blumentopfheizung.git`
+2. Install the required packages: `npm install`
+3. Start the development server: `npm run serve`
 
+## Instructions
+On the "Instructions" page, you will find detailed steps for building the flowerpot heater as well as tips for operation and maintenance.
 
+## Contact
+If you have any questions or comments, or would like to give us feedback, please visit our Contact page.
 
+## Contributors
+- Edward Habermann (edward.habermann@icloud.com)
 
+## License
+This project is licensed under the MIT License. For more information, please see the LICENSE file.
 
-
-    ## Tipps
-
-    // Shortcuts
-        Code formatieren (zurechtrücken)
-            - Strg + K, Strg + F
-
-    1. Responsive Design
-        - Wird nicht angezeigt wenn der Zustand md erreicht.
-            - md:hidden
+## Author
+This project was created by Edward Habermann.
