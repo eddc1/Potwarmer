@@ -1,28 +1,28 @@
 # Blumentopfheizung-Webseite
 
-This is a website that provides information and instructions on how to make a flowerpot heater. A flowerpot heater is an environmentally friendly and cost-effective way to heat small spaces or tents. The website is divided into different sections to help users navigate and search for specific information.
+Dies ist eine Webseite, die Informationen und Anleitungen zur Herstellung einer Blumentopfheizung bietet. Eine Blumentopfheizung ist eine umweltfreundliche und kostengünstige Methode, um kleine Räume oder Zelte zu heizen. Die Webseite ist in verschiedene Abschnitte unterteilt, um den Benutzern bei der Navigation und Suche nach spezifischen Informationen zu helfen.
 
-## Overview
-The website was developed using Vue.js, JavaScript, HTML, and CSS, using Tailwind CSS as the framework. It consists of several components, including a main page, a page with instructions, and a page with contact information.
+## Überblick
+Die Webseite wurde mit Vue.js, JavaScript, HTML und CSS unter Verwendung von Tailwind CSS als Framework entwickelt. Sie besteht aus mehreren Komponenten, darunter eine Hauptseite, eine Seite mit Anleitungen und eine Seite mit einer Kontaktmöglichkeit.
 
 ## Installation
-To run the project locally, follow these steps:
+Um das Projekt lokal auszuführen, folgen Sie diesen Schritten:
 
-1. Clone the repository: `git clone https://github.com/username/Blumentopfheizung.git`
-2. Install the required packages: `npm install`
-3. Start the development server: `npm run serve`
+1. Klonen Sie das Repository: `git clone https://github.com/eddc1/Potwarmer.git`
+2. Installieren Sie die erforderlichen Pakete: `npm install`
+3. Starten Sie den Entwicklungs-Server: `npm run dev`
 
-## Instructions
-On the "Instructions" page, you will find detailed steps for building the flowerpot heater as well as tips for operation and maintenance.
+## Anleitungen
+Auf der Seite "Anleitungen" finden Sie detaillierte Schritte zum Bau der Blumentopfheizung sowie Tipps zum Betrieb und zur Wartung.
 
-## Contact
-If you have any questions or comments, or would like to give us feedback, please visit our Contact page.
+## Kontakt
+Wenn Sie Fragen oder Kommentare haben oder uns Feedback geben möchten, besuchen Sie bitte unsere Kontaktseite.
 
-## Contributors
+## Beitragende
 - Edward Habermann (edward.habermann@icloud.com)
 
-## License
-This project is licensed under the MIT License. For more information, please see the LICENSE file.
+## Lizenz
+Dieses Projekt ist unter der MIT-Lizenz lizenziert. Weitere Informationen finden Sie in der Datei LICENSE.
 
-## Author
-This project was created by Edward Habermann.
+## Autor
+Dieses Projekt wurde von Edward Habermann erstellt.
