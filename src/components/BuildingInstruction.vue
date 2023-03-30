@@ -17,9 +17,6 @@
         <div class="flex justify-center bg-gray-100 shadow rounded-lg">
           <Step :step="step5" class="w-auto px-8" />
         </div>
-        <div class="flex justify-center bg-gray-100 shadow rounded-lg">
-          <Step :step="step6" class="w-auto px-8" />
-        </div>
       </div>
     </div>
   </div>
@@ -31,6 +28,11 @@
   import TonuntersetzerImg from "../assets/static/logos/Tonuntersetzer-BG-2.png"
   import Anleitung1Img from "../assets/static/logos/Anleitung-1-BG.png"
   import Anleitung1Montage from "../assets/static/building/Anleitung-1-Montageanleitung.png"
+  import Anleitung2Montage from "../assets/static/building/Anleitung-2-Montageanleitung.png"
+  import Anleitung3Montage from "../assets/static/building/Anleitung-3-Montageanleitung.png"
+  import Anleitung4Montage from "../assets/static/building/Anleitung-2-Montageanleitung.png"
+  import Anleitung5Montage from "../assets/static/building/Anleitung-3-Montageanleitung.png"
+
 
   export default {
     components: {
@@ -58,30 +60,25 @@
           text: "Kleben Sie die zu bohrende Stelle auf beiden Seiten des Tonuntersetzers mit Klebeband ab, um ein Splittern oder Einreißen des Materials beim Bohren zu vermeiden. Bohren Sie dann ein Loch in die Mitte des Untersetzers."
         },
         step2: {
-          imgSrc: TonuntersetzerImg,
+          imgSrc: Anleitung2Montage,
           title: "Schritt 2",
           text: "Schieben Sie die Gewindestange durch das Loch im Tonuntersetzer. Die Länge der Gewindestange kann je nach Bedarf angepasst werden. Sägen Sie die Stange gegebenenfalls mit einer Metallsäge auf die gewünschte Länge zurecht. Bringen Sie dann an jeder Seite eine Unterlegscheibe und eine Mutter an und ziehen Sie diese fest."
         },
         step3: {
-          imgSrc: TonuntersetzerImg,
+          imgSrc: Anleitung3Montage,
           title: "Schritt 3",
           text: "Drehen Sie eine dritte Mutter auf den oberen Teil der Gewindestange. Diese dient später als Halterung für den Blumentopf, sodass dessen Position über die Höhe der Teelichtheizung entscheidet."
         },
         step4: {
-          imgSrc: TonuntersetzerImg,
+          imgSrc: Anleitung4Montage,
           title: "Schritt 4",
           text: "Legen Sie eine größere Unterlegscheibe auf die obere Mutter. Stülpen Sie dann den Blumentopf kopfüber auf die Gewindestange, sodass er an der Scheibe hängen bleibt."
         },
         step5: {
-          imgSrc: TonuntersetzerImg,
+          imgSrc: Anleitung5Montage,
           title: "Schritt 5",
           text: "Legen Sie eine zweite große Unterlegscheibe auf den Blumentopf. Drehen Sie den Abstandshalter auf die Gewindestange und ziehen Sie eine Mutter auf, um den Blumentopf fest zu fixieren."
-        },
-        step6: {
-          imgSrc: TonuntersetzerImg,
-          title: "Schritt 6",
-          text: "Legen Sie eine große Unterlegscheibe auf die Mutter. Stülpen Sie dann den zweiten, größeren Blumentopf auf die Unterlegscheibe und fixieren Sie ihn mit einer weiteren Unterlegscheibe und einer Mutter."
-        },
+        }
       }
     }
   }
