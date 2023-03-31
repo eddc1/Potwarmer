@@ -33,9 +33,9 @@ import Anleitung2Montage from
 import Anleitung3Montage from
   '../assets/static/building/Anleitung-3-Montageanleitung.png';
 import Anleitung4Montage from
-  '../assets/static/building/Anleitung-2-Montageanleitung.png';
+  '../assets/static/building/Anleitung-4-Montageanleitung.png';
 import Anleitung5Montage from
-  '../assets/static/building/Anleitung-3-Montageanleitung.png';
+  '../assets/static/building/Anleitung-5-Montageanleitung.png';
 
 
 export default {
