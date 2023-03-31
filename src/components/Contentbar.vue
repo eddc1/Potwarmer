@@ -67,7 +67,8 @@
             </a>
 
             <a  href="#instruction"
-               data-cta="learn" data-clickname="" aria-label="ANLEITUNG zum Bau einer Blumentopfheizung">
+               data-cta="learn" data-clickname=""
+               aria-label="ANLEITUNG zum Bau einer Blumentopfheizung">
                <div>
                   <div>
                      <img

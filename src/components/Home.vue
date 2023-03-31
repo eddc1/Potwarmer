@@ -14,16 +14,16 @@
 
 <script>
 
-    import Carousel from './Carousel.vue'
-    import Contentbar from './Contentbar.vue';
-    import Manual from './Manual.vue'
+import Carousel from './Carousel.vue';
+import Contentbar from './Contentbar.vue';
+import Manual from './Manual.vue';
 
-    export default {
-        components: {
-            Carousel,
-            Contentbar,
-            Manual,
-        }
-    }
+export default {
+  components: {
+    Carousel,
+    Contentbar,
+    Manual,
+  },
+};
 
 </script>

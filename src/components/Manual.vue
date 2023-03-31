@@ -3,10 +3,10 @@
          Diese Datei ist ein VueJS-Template für eine Anleitung für eine Blumentopf-Heizung. Hier sind die Kommentare zu dem gegebenen Code:
      -->
      <!--
-        Der Code: 
+        Der Code:
 
-        "<div class="container mx-auto">" 
-        
+        "<div class="container mx-auto">"
+
         Erstellt ein HTML-Element, das als Container fungiert und eine maximale Breite hat, die dem Elternelement entspricht. Das "mx-auto" in der Klasse zentriert den Container horizontal in seinem Elternelement. Dies ist eine nützliche Methode, um Elemente auf einer Webseite auszurichten und sicherzustellen, dass sie auf verschiedenen Bildschirmgrößen gut aussehen. Insgesamt ist dieser Code eine gängige Methode, um eine responsive Webseite zu erstellen.
      -->
 
@@ -14,19 +14,19 @@
 
         <!--
             Der Code:
-            
+
             "<div class="manual">"
-            
+
             Erstellt höchstwahrscheinlich einen Bereich in einer Webseite mit dem Klassennamen "manual". Ein solcher Bereich kann zum Beispiel verwendet werden, um Anleitungen, Handbücher oder andere Informationen anzuzeigen, die für den Benutzer nützlich sind. Durch die Verwendung einer Klasse kann dieser Bereich von anderen Abschnitten auf der Seite unterschieden werden, um ihm spezifische Eigenschaften wie zum Beispiel ein bestimmtes Styling zuzuweisen.
          -->
 
         <div class="manual">
 
-            <!-- 
+            <!--
                 Der Code:
-                
+
                 "<h1 class="text-center py-4 text-3xl">"
-                    
+
                 Erstellt eine Überschrift erster Ordnung mit einer zentrierten Ausrichtung, einem Abstand von 4 "py" Einheiten und einer Schriftgröße von 3xl.
              -->
 
@@ -34,7 +34,7 @@
                 Blumentopf-Heizung Anleitung
             </h1>
 
-            <!-- 
+            <!--
                 Dieser Code definiert einen Absatz im HTML-Dokument.
              -->
             <p>
@@ -58,15 +58,15 @@
             <p>
                 Der Konvektionsstrom transportiert die warme Luft aus dem Blumentopf heraus und sorgt so für eine gleichmäßige Erwärmung der Umgebung. Die Blumentopfheizung eignet sich besonders gut für kleine Räume oder für die Verwendung auf Terrassen und Balkonen. Durch die Verwendung von mehreren Blumentopfheizungen kann die Wärmeleistung erhöht werden.
             </p>
-            <p>    
+            <p>
                 Die Blumentopfheizung ist eine umweltfreundliche Alternative zu herkömmlichen Heizsystemen, da sie keine Stromquelle benötigt und somit keine Emissionen verursacht. Die Wärmequelle ist ein einfaches Teelicht, das kostengünstig und einfach zu beschaffen ist. Auch die Wartung und Reinigung der Blumentopfheizung ist sehr einfach.
             </p>
             <p>
                 Die Blumentopfheizung ist nicht nur funktional, sondern kann auch als dekoratives Element genutzt werden. Die Töpfe gibt es in verschiedenen Farben und Designs, die sich gut in jede Umgebung einfügen. Es ist jedoch wichtig zu beachten, dass die Blumentopfheizung nicht für den dauerhaften Einsatz als Hauptheizquelle geeignet ist. Sie ist eher für den kurzzeitigen Einsatz oder als zusätzliche Wärmequelle gedacht.
             </p>
         </div>
-        
-        <!-- 
+
+        <!--
             Die Datei beginnt mit dem Erstellen eines Containers, der den Inhalt zentriert. Dann wird ein Abschnitt erstellt, der als "manual" klassifiziert ist, und ein paar Überschriften enthält, die die Funktionen der Blumentopf-Heizung beschreiben. Danach folgt ein weiterer Abschnitt, der als "manual" klassifiziert ist, und eine Überschrift enthält, die Informationen zur Anschaffung bereitstellt. Ein Affiliate-Link und zwei Bilder sollen noch hinzugefügt werden.
          -->
 
@@ -103,38 +103,38 @@
                 Teelichtöfen bieten viele Vorteile im Vergleich zu herkömmlichen Heizmethoden. Im Folgenden möchten wir Ihnen weitere Vorteile der Heizwärme vom Teelichtofen näherbringen:
             </p>
 
-        <!-- 
+        <!--
             Dieser Code definiert eine ungeordnete Liste mit einer Breite von 100%, abgerundeten Ecken, einem oberen Abstand von 2 und einem unteren Abstand von 3.
         -->
 
-        <!-- 
+        <!--
             Hier wird eine stilisierte ungeordnete Liste erstellt, die sich perfekt in das umgebende Layout einfügt.
          -->
 
         <ul class="w-full rounded-lg mt-2 mb-3">
 
-            <!-- 
+            <!--
                 Dieser Code erstellt ein Listen-Element innerhalb einer ungeordneten Liste (ul-Element) mit einer unteren Randabstand von 1 (mb-1) zwischen den Elementen.
             -->
-            <!-- 
+            <!--
                 Erstellt ein Listen-Element mit einem unteren Randabstand von 1 innerhalb einer ungeordneten Liste.
              -->
 
             <li class="mb-1">
 
-                <!-- 
+                <!--
                     Dieser Code definiert ein anklickbares HTML-Element mit einem Link. Das Element wird als rechteckiger Button-Stil dargestellt, der bei Hover eine leichte Farbänderung aufweist. Der Button hat auch einen Abstand von 3 Pixeln auf der linken Seite und 3 Pixeln auf der rechten Seite des Textinhalts, um ihn von anderen Elementen in der Umgebung abzugrenzen.
                  -->
 
                 <a class="w-fill flex p-3 pl-3 bg-gray-100 hover:bg-gray-200 rounded-lg">
 
-                    <!-- 
+                    <!--
                         Dieser Code erstellt ein Bildelement mit der Klasse "bi bi-caret-right-fill flex-none w-6". Das Bild ist eine Pfeilspitze, die nach rechts zeigt und hat eine feste Breite von 6. Das Attribut "flex-none" gibt an, dass das Bild nicht skaliert werden soll, wenn die Größe des übergeordneten Elements geändert wird.
                      -->
 
                     <img class="bi bi-caret-right-fill flex-none w-6" />
 
-                    <!-- 
+                    <!--
                         Der vorliegende Code definiert ein span-Element mit der Klasse "ml-2" und dem Titel "Umweltfreundlichkeit". Das Attribut "ml-2" legt dabei einen zusätzlichen linken Abstand zum umgebenden Text fest. Der Titel "Umweltfreundlichkeit" könnte dazu dienen, den Inhalt des span-Elements genauer zu beschreiben oder zu erläutern, wenn der Benutzer den Mauszeiger darüber bewegt.
                      -->
 
@@ -192,7 +192,7 @@
                 Insgesamt bietet der Teelichtofen viele Vorteile, die ihn zu einer ausgezeichneten Wärmequelle machen. Obwohl er nur mit Kerzen betrieben wird, bietet er eine angenehme und effektive Wärmequelle, die nicht nur umweltfreundlich, sondern auch kosteneffizient und sicher ist.
             </p>
         </div>
-        <!-- 
+        <!--
             Als nächstes wird ein weiterer Abschnitt erstellt, der die Vorteile der Blumentopf-Heizung beschreibt. Dieser Abschnitt enthält eine Überschrift und eine Liste von Vorteilen. Jeder Vorteil besteht aus einem Listenelement, das eine Schaltfläche mit einem Bild und einer kurzen Beschreibung des Vorteils enthält.
          -->
         <div class="manual">
@@ -252,7 +252,7 @@
             Schließlich wird ein weiterer Abschnitt erstellt, der die Nachteile der Blumentopf-Heizung beschreibt. Dieser Abschnitt ist ähnlich aufgebaut wie der Abschnitt mit den Vorteilen, enthält jedoch eine Liste von Nachteilen. Jeder Nachteil besteht aus einem Listenelement, das eine Schaltfläche mit einem Bild und einer kurzen
          -->
         <div class="manual">
-            
+
             <h1 class="text-center py-4 text-3xl">
                 Material
             </h1>
@@ -366,17 +366,17 @@
             <Instruction />
         </div>
     </div>
-    
+
 </template>
 
 
 <script>
 
-    import Instruction from './Instruction.vue';
+import Instruction from './Instruction.vue';
 
-    export default {
-    components: {
-        Instruction
-  }
-}
+export default {
+  components: {
+    Instruction,
+  },
+};
 </script>

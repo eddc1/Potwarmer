@@ -36,7 +36,7 @@
         </button>
     </div>
     </div>
-   
+
 
     <transition enter-class="opacity-0" enter-active-class="ease-out transition-medium" enter-to-class="opacity-100"
       leave-class="opacity-100" leave-active-class="ease-out transition-medium" leave-to-class="opacity-0">
@@ -125,29 +125,29 @@
 export default {
   data() {
     return {
-      isOpen: false
+      isOpen: false,
     };
   },
   methods: {
     drawer() {
       this.isOpen = !this.isOpen;
-    }
+    },
   },
   watch: {
     isOpen: {
       immediate: true,
       handler(isOpen) {
         //   if (process.client) {
-        //      if (isOpen) document.body.style.setProperty("overflow", "hidden");
+        //   if (isOpen) document.body.style.setProperty("overflow", "hidden");
         //      else document.body.style.removeProperty("overflow");
         //   }
-      }
-    }
+      },
+    },
   },
   mounted() {
-    document.addEventListener("keydown", event => {
+    document.addEventListener('keydown', (event) => {
       if (event.key == 27 && this.isOpen) this.isOpen = false;
     });
-  }
+  },
 };
 </script>

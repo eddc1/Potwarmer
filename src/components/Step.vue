@@ -5,17 +5,17 @@
       <p class="text-gray-600">{{ step.text }}</p>
     </div>
   </template>
-  
-  <script>
 
-    export default {
-        props: {
-            step: {
-                type: Object,
-                required: true
-            },
-        }
-    };
-    
-  </script>
-  
+<script>
+
+export default {
+  props: {
+    step: {
+      type: Object,
+      required: true,
+    },
+  },
+};
+
+</script>
+

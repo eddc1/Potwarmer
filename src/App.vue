@@ -1,5 +1,5 @@
 <template>
-  
+
   <div>
     <Navbar />
     <Home />
@@ -22,10 +22,9 @@ export default {
     Navbar,
     Home,
     Footbar,
-  }
-}
+  },
+};
 </script>
-
 <style>
 html {
   font-family:

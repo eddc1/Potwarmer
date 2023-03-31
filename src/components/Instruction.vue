@@ -29,26 +29,26 @@
             </p>
 
         </div>
-       
+
 
 </template>
 
 <script>
 
-    import Products from './Products.vue';
-    import BuildingInstruction from './BuildingInstruction.vue';
+import Products from './Products.vue';
+import BuildingInstruction from './BuildingInstruction.vue';
 
-    window.addEventListener('scroll', function() {
-        const instruction = document.querySelector('#instruction');
-        if (instruction && instruction.getBoundingClientRect().top <= 0) {
-            window.history.replaceState({}, document.title, window.location.pathname);
-        }
-    });
+window.addEventListener('scroll', function() {
+  const instruction = document.querySelector('#instruction');
+  if (instruction && instruction.getBoundingClientRect().top <= 0) {
+    window.history.replaceState({}, document.title, window.location.pathname);
+  }
+});
 
-    export default {
-        components: {
-            Products,
-            BuildingInstruction
-        }
-    }
+export default {
+  components: {
+    Products,
+    BuildingInstruction,
+  },
+};
 </script>
