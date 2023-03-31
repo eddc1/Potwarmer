@@ -3,7 +3,7 @@
 Dies ist eine Webseite, die Informationen und Anleitungen zur Herstellung einer Blumentopfheizung bietet. Eine Blumentopfheizung ist eine umweltfreundliche und kostengünstige Methode, um kleine Räume oder Zelte zu heizen. Die Webseite ist in verschiedene Abschnitte unterteilt, um den Benutzern bei der Navigation und Suche nach spezifischen Informationen zu helfen.
 
 ## Überblick
-Die Webseite wurde mit Vue.js, JavaScript, HTML und CSS unter Verwendung von Tailwind CSS als Framework entwickelt. Sie besteht aus mehreren Komponenten, darunter eine Hauptseite, eine Seite mit Anleitungen und eine Seite mit einer Kontaktmöglichkeit.
+Die Webseite wurde mit Vue.js, JavaScript, Vitejs, HTML und CSS unter Verwendung von Tailwind CSS als Framework entwickelt. Sie besteht aus mehreren Komponenten, darunter eine Hauptseite, eine Seite mit Anleitungen und eine Seite mit einer Kontaktmöglichkeit.
 
 ## Installation
 Um das Projekt lokal auszuführen, folgen Sie diesen Schritten:
